@@ -36,6 +36,6 @@
   "dependencies": {
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "erick-container-shared": "^1.0.18"
+    "erick-container-shared": "^1.0.21"
   }
 }

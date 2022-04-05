@@ -34,7 +34,7 @@
     "webpack-dev-server": "^4.3.1"
   },
   "dependencies": {
-    "erick-container-shared": "^1.0.18",
+    "erick-container-shared": "^1.0.21",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   }

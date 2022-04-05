@@ -1,5 +1,5 @@
 //@ts-ignore
-import todoStoreRemote from "ContainerRemote/todoStore";
+import todoStoreRemote from "ContainerRemote/stores/todoStore";
 import { StoreApi, UseBoundStore } from "zustand";
 
 export type Todo = {

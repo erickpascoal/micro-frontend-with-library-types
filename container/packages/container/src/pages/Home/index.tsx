@@ -5,10 +5,10 @@ import { useEffect } from "react";
 
 export function Home() {
   const todos = stores.todoStore((state) => state.todos);
-  const { helloWithName } = hooks.useOi();
+  const { calc } = hooks.useSum();
 
   useEffect(() => {
-    helloWithName("erick");
+    console.log("calc(2, 3);", calc(2, 3));
   }, []);
 
   return (

@@ -1,1 +1,1 @@
-export * from "./useOi";
+export * from "./useSum";

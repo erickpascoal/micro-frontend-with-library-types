@@ -2053,10 +2053,10 @@ envinfo@^7.7.3:
   resolved "https://registry.yarnpkg.com/envinfo/-/envinfo-7.8.1.tgz#06377e3e5f4d379fea7ac592d5ad8927e0c4d475"
   integrity sha512-/o+BXHmB7ocbHEAs6F2EnG0ogybVVUdkRunTT2glZU9XAaGmhqskrvKwqXuDfNjEO0LZKWdejEEpnq8aM0tOaw==
 
-erick-container-shared@^1.0.18:
-  version "1.0.18"
-  resolved "https://registry.yarnpkg.com/erick-container-shared/-/erick-container-shared-1.0.18.tgz#2410899b37c95bd49ae551111b14c4f76ce87733"
-  integrity sha512-jigDgHQrf6V6d2dxLtJxCPgD7wxR11rmBI9Gsh4wx5ysWPWPdPdpv0VpQ1fqNB/xo1ilDR4srHHvcMW7lP1TMQ==
+erick-container-shared@^1.0.21:
+  version "1.0.21"
+  resolved "https://registry.yarnpkg.com/erick-container-shared/-/erick-container-shared-1.0.21.tgz#45b64df458fb017ec91a46531ece33e203b46934"
+  integrity sha512-LMK7Zl2CZhvwVyR/yTWnIHHq9Df9UA37rRgmRBjNrZsEfXJK8yqvTb+Y3PnxIo+xe5OEm3D1R7LCK+rM0B00lg==
   dependencies:
     zustand "^3.7.1"
 

@@ -1,4 +1,4 @@
-import React, { FormEvent } from "react";
+import React, { FormEvent, useEffect } from "react";
 
 import { stores } from "erick-container-shared";
 
@@ -15,6 +15,8 @@ export default function TodoForm() {
       setValue("");
     }
   }
+
+  useEffect(() => {}, []);
 
   return (
     <div

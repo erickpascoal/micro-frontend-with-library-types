@@ -50,7 +50,8 @@ module.exports = {
         App2: "App2@http://localhost:9092/remoteEntry.js",
       },
       exposes: {
-        "./todoStore": "./src/store/todoStore",
+        "./stores/todoStore": "./src/stores/todoStore",
+        "./hooks/useSum": "./src/hooks/useSum",
       },
       shared: {
         ...deps,

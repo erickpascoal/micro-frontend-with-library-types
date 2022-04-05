@@ -1,9 +1,13 @@
 import React, { FormEvent, useEffect } from "react";
 
 import { stores } from "erick-container-shared";
+import { CountForm } from "../CountForm";
+import countStore from "../../stores/countStore";
 
 export default function TodoForm() {
   const addTodo = stores.todoStore((state) => state.addTodo);
+  const inc = countStore((state) => state.inc);
+  const dec = countStore((state) => state.dec);
 
   const [value, setValue] = React.useState("");
 
@@ -56,6 +60,9 @@ export default function TodoForm() {
           Adicionar
         </button>
       </form>
+      <CountForm />
+      <button onClick={dec}>dec</button>
+      <button onClick={inc}>inc</button>
     </div>
   );
 }

@@ -1,0 +1,26 @@
+{
+  "name": "mfe",
+  "version": "1.0.0",
+  "scripts": {
+    "bootstrap": "lerna bootstrap --use-workspaces",
+    "container": "yarn workspace container",
+    "lib": "yarn workspace erick-container-shared"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Erick Pascoal",
+    "email": "erix_ps@hotmail.com"
+  },
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  },
+  "dependencies": {
+    "zustand": "^3.7.1"
+  }
+}

@@ -1,3 +1,9 @@
+
+import { StoreApi, UseBoundStore } from "zustand";
+
+//@ts-ignore
+import { useAuthorizationStore as useAuthorizationStoreRemote } from "CortexCoreRemote/stores/useAuthorizationStore";
+
 export type AuthorizationStore = {
     userId: User["id"];
     permissions: User["funcionalidades"];
@@ -36,14 +42,6 @@ export type ShortPermissionGroup = {
     id: string
     acao: string
   }
-  
-
-  
-
-import { StoreApi, UseBoundStore } from "zustand";
-
-//@ts-ignore
-import { useAuthorizationStore as useAuthorizationStoreRemote } from "CortexCoreRemote/stores/useAuthorizationStore";
 
 export const useAuthorizationStore: UseBoundStore<
   AuthorizationStore,

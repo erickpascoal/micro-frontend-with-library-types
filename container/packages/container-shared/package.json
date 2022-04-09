@@ -1,6 +1,6 @@
 {
   "name": "erick-container-shared",
-  "version": "1.0.21",
+  "version": "1.0.26",
   "description": "Biblioteca utilitário do Container",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
